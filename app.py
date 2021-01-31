@@ -17,7 +17,7 @@ TWEET_URL_LENGTH = 21
 #Please so not change anything to this section!
 
 today = datetime.now()
-tz = pytz.timezone('Asia/Manila') # change the timezone to your desired/home timezone.
+tz = pytz.timezone('America/Bogota') # change the timezone to your desired/home timezone.
 pht = datetime.now(tz) #change the variable too if you want
 
 def twitter_handle():
